@@ -1,0 +1,11 @@
+x=[1,2,3,4,5,6,7,8,9]
+x.extend([88,54])
+print(x)
+manoj=x
+manoj.sort()
+print(manoj)
+manoj.reverse()
+print(x)
+print(x[1:3:7])
+h=bytes(x)
+print(h)
